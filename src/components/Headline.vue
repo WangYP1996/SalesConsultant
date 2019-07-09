@@ -1,6 +1,6 @@
 <template>
     <div id="Headline">
-        <div id="Title"><p>&nbsp;{{Title}}</p></div>
+        <div id="Title"><p>&nbsp;{{title}}</p></div>
         <div id="Updatetime" v-cloak>更新时间：{{CurrentTime}}&nbsp;</div>
     </div>    
 </template>
@@ -10,11 +10,11 @@ import {GetDate} from './Time'
 export default {
     name: 'Headline',
     props:{
-        Title: String
+        title: String
     },
     data(){
         return {
-            CurrentTime: GetDate()
+            CurrentTime: GetDate(0)
         }
     }
 }
