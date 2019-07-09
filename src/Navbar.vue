@@ -3,8 +3,8 @@
         <div class="container-fluid"></div>
         <div class="col-md-4">
             <ul class="nav navbar-nav">
-                <li v-for="t in Tabs" :key="t.id" class="t.id==0?'active':''">
-                    <a data-toggle="tab" :href="'#'+t.href">{{t.title}}</a>
+                <li v-for="t in Tabs" :key="t.id" :class="t.id==0?'active':''">
+                    <a data-toggle="tab" :href="t.href">{{t.title}}</a>
                 </li>
             </ul>
         </div>
