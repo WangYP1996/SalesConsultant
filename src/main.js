@@ -3,6 +3,8 @@ import CurrentStatus from './CurrentStatus'
 import ShopSurvey from './ShopSurvey'
 import Navbar from './Navbar'
 
+import './main.css'
+
 Vue.config.productionTip = false
 
 new Vue({
