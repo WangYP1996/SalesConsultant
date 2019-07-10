@@ -43,6 +43,7 @@ export default {
             this.yeste = NumtoString(this.ToLeft[1][5]);
             //fake data
             this.rank = "5W+";
+            //!fake data
             console.log(Status_table);
             let Status_table = echarts.init(document.getElementById('left_table'));
             Status_table.setOption({
