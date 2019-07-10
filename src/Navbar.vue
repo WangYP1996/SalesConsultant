@@ -50,4 +50,12 @@ export default {
 }
 </script>
 
+<style>
+.navbar {
+    position: sticky;
+    z-index: 999;
+}
+</style>
+
+
  

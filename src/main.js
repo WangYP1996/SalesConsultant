@@ -7,6 +7,7 @@ import ServiceWindow from './ServiceWindow'
 import ManageWindow from './ManageWindow'
 
 import './main.css'
+import './public.js'
 
 Vue.config.productionTip = false
 
