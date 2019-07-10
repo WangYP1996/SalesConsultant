@@ -3,6 +3,7 @@
         <div class="panel panel-default">
             <div class="panel-body" id="SurveyBody">
                 <Headline title="店铺概况"></Headline>
+                
             </div>
         </div>
     </div>
@@ -22,9 +23,13 @@ export default {
 <style>
     #SurveyBody{
         min-height: 350px;
+        padding: 15px;
     }
     #SurveyBody>#Headline>#Title>p{
-        font-size: 20px;
+        font-size: 18px;
+    }
+    #SurveyBody>#Headline>#Updatetime{
+        font-size: 10px;
     }
 </style>
 

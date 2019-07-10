@@ -16,6 +16,9 @@ export default {
         return {
             CurrentTime: GetDate(0)
         }
+    },
+    mounted(){
+
     }
 }
 </script>
