@@ -56,7 +56,6 @@ export default {
                 }
                 for(let i in data.data){
                     for(let j in data.data[i]){
-                        console.log(data.data[i][j]);
                         Quantity.push(data.data[i][j][0]);
                         Sales.push(data.data[i][j][1]);
                     }        

@@ -8,4 +8,4 @@ setTimeout(function () {
         $("#ShopSurvey .panel-body").height(height);
         $("#CurrentStatus .panel-body").height(height);
     }
-}, 200)
+}, 200);

@@ -77,13 +77,12 @@ export default {
         let chart2 = echarts.init(document.getElementById('chart_shopsurvey_progress'));
         chart2.setOption({
             grid: {
-                left: '2%',
-                right: '2%',
+                left: '3%',
+                right: '0%',
                 bottom: '0%',
                 top: "0%",
                 x: 0,
                 y: 0
-
             },
             xAxis: {
                 type: 'value',

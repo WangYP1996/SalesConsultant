@@ -1,10 +1,12 @@
 import Vue from 'vue'
+import Vuex from 'vuex'
 import CurrentStatus from './CurrentStatus'
 import ShopSurvey from './ShopSurvey'
 import Navbar from './Navbar'
 import OperationWindow from './OperationWindow'
 import ServiceWindow from './ServiceWindow'
 import ManageWindow from './ManageWindow'
+import store from './store/store'
 
 import './main.css'
 import './public.js'
@@ -21,10 +23,12 @@ new Vue({
 
 new Vue({
   render: h => h(Navbar),
+  store
 }).$mount('#Navbar')
 
 new Vue({
   render: h => h(OperationWindow),
+  store
 }).$mount('#OperationWindow')
 
 new Vue({
